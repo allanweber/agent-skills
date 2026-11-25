@@ -12,10 +12,6 @@
 | frontend | frontend | frontend-dev |
 | docs, infra/*, seed/*, docs/api | other | orchestrator |
 
-## Worktrees
-- Folder: .claude/worktrees/<N.M>
-- Setup: `pnpm install` in `frontend` and in `seed/acme-fintech`
-
 ## Backend commands
 - Rules to read: .claude/rules/backend.md
 - Unit test of one class: ./gradlew :<module>:test --tests <Class>
